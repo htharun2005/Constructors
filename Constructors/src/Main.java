@@ -1,3 +1,4 @@
+//Zero Parameterized Constructor
 class Dog {
 	private String Name;
 	private String Color;
