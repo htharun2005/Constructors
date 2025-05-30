@@ -1,4 +1,5 @@
- class Dogg {
+//Parametrized Constructor//
+class Dogg {
 	private String Name;
 	private String Color;
 	private int Age;
@@ -42,52 +43,7 @@ class Main1
 }
 
 
-class Bollywood {
-	void Name()
-	{
-		System.out.println("Name");
-	}
-	void Colorscreen()
-	{
-		System.out.println("Colorscreen");
-	}
-}
 
-class Tollywood extends Bollywood {
-	void Camera()
-	{
-		System.out.println("Camera");
-	}
-	void Actions()
-	{
-		System.out.println("Actions");
-	}
-}
- 
-class Sandelwood extends Tollywood{
-	void Actor()
-	{
-		System.out.println("Actor");
-	}
-	void Artist()
-	{
-		System.out.println("Artist");
-	}
-}
-
-class Mainmulti
-{
-	public static void main(String[] args) {
-		
-	Sandelwood s=new Sandelwood();
-	s.Name();
-	s.Colorscreen();
-	s.Camera();
-	s.Actions();
-	s.Actor();
-	s.Artist();
-	}
-}
 
 	
 
