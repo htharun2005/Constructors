@@ -1,0 +1,63 @@
+class SportsBike{
+	private String Name;
+	private String Color;
+	private String Model;
+	private int Speed;
+	private int Type;
+	
+	
+	
+	//Constructors
+	SportsBike()
+	{
+		Name="KTM";
+		Color="Blue";
+		Model="Advanced";
+		Type=2025;
+		Speed=400;
+		
+		
+		}
+
+//getters//
+
+	public String getName() {
+		return Name;
+	}
+
+
+
+	public String getColor() {
+		return Color;
+	}
+
+
+
+	public String getModel() {
+		return Model;
+	}
+
+
+
+	public int getSpeed() {
+		return Speed;
+	}
+
+
+
+	public int getType() {
+		return Type;
+	}
+	}
+
+class Mainvehical {
+	public static void main(String[] args) {
+		SportsBike c = new SportsBike ();
+		System.out.println(c.getName());
+		System.out.println(c.getColor());
+		System.out.println(c.getModel());
+		System.out.println(c.getSpeed());
+		System.out.println(c.getType());
+		}
+
+}
