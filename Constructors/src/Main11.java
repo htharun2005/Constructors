@@ -1,43 +1,49 @@
- class Dogg {
-		private String Name;
-		private String Color;
-		private int Age;
-		private String Model;
-		
-		
-		//constructors
-		Dogg(String a,String b,int c,String d)
-		{
-			Name=a;
-			Color=b;
-			Age=c;
-			Model=d;
-			
-		}
-		public String getName() {
-			return Name;
-		}
-		public String getColor() {
-			return Color;
-		}
-		public int getAge() {
-			return Age;
-		}
-		public String getModel() {
-			return Model;
-		}
-		
+//Parametrized Constructor//
+class Car{
+	 public String getName() {
+		return Name;
 	}
 
-	class Main11
+	public String getColor() {
+		return Color;
+	}
+
+	public String getModel() {
+		return Model;
+	}
+
+	public int getType() {
+		return Type;
+	}
+
+	private String Name;
+	 private String Color;
+	 private String Model;
+	 private int Type;
+ 
+ //Constructor
+  Car(String a, String b, String c,int d)
+  {
+	  Name=a;
+	  Color=b;
+	  Model=c;
+	  Type=d;
+  }
+ }
+ 
+ 
+
+  class Main11
 	{
-		public static void main(String[] args) {
-			Dogg d=new Dogg("harsha","black",5,"Kuppam street");
-			System.out.println(d.getName());
-			System.out.println(d.getColor());
-			System.out.println(d.getAge());
-			System.out.println(d.getModel());
+		public static void main(String[] args) 
+		{
+			Car c=new Car("BMW","white&black","latest",2025);
+			System.out.println(c.getName());
+			System.out.println(c.getColor());
+			System.out.println(c.getModel());
+			System.out.println(c.getType());
+			
 			
 		}
 	}
-
+ 
